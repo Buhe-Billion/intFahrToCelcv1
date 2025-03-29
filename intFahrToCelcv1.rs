@@ -11,6 +11,7 @@ fn main()
     {
         let celcius = 5 * (fahr-32) / 9;
         //println!("{}    {}", fahr, celcius);I didn't realise that it worked this way! I didn't really specify what goes where!
+        println!("{fahr:width$}{celcius:width$}", width = 7);
         fahr = fahr + stepSize;
     }
 }
