@@ -10,7 +10,7 @@ fn main()
     while fahr <= upperLimmit
     {
         let celcius = 5 * (fahr-32) / 9;
-        println!("{}    {}", fahr, celcius);
+        //println!("{}    {}", fahr, celcius);I didn't realise that it worked this way! I didn't really specify what goes where!
         fahr = fahr + stepSize;
     }
 }
