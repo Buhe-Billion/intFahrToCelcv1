@@ -3,6 +3,7 @@
 ;
 ;ARCHITECTURE                 : X86-64
 ;CPU                          : Intel® Core™2 Duo CPU T6570 @ 2.10GHz × 2
+;NASM                         : 2.14.02
 
 SECTION .data                 ; Section containng initialised data
 
