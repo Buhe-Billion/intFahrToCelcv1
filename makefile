@@ -1,3 +1,2 @@
-cVersion:
-	gcc intFahrToCelcv1.c -o cVersion
-
+rustVersion:
+	rustc intFahrToCelcv1.rs -o rustVersion
